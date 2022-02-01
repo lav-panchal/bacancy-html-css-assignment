@@ -1,0 +1,266 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container-fluid {
+  background-color: #eeeff6 !important;
+}
+.bg-blue {
+  background-color: #1f40a0;
+  height: 830px;
+  border-radius: 15px;
+}
+.logo {
+  padding-top: 20px;
+  text-align: center;
+}
+.logo-img {
+  margin-top: 50px;
+  margin-left: 65px;
+}
+.logo span {
+  font-size: 10px;
+}
+.menu {
+  color: #ffffff;
+  padding-top: 50px;
+}
+.menu span {
+  font-size: 12px;
+}
+.menu div i {
+  background-color: #3a4bad;
+  height: 27px;
+  width: 27px;
+  font-size: 13px;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-top: 8px;
+}
+.menu div i:hover {
+  background-color: #f42879;
+}
+.logout {
+  position: absolute;
+  bottom: -120px;
+}
+.search input {
+  padding-left: 50px;
+  width: 520px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 12px;
+  border: 0px solid white;
+}
+.search-icon {
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.search-menu span {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+}
+.search-menu i {
+  padding: 10px;
+}
+.search-menu img {
+  margin: 10px;
+}
+.home-image {
+  background-color: #ffffff;
+  border-radius: 25px;
+  height: 200px;
+  margin-left: 40px;
+}
+.btn1 {
+  color: #ffffff;
+  background-color: #f52a7a;
+  border-radius: 25px;
+  font-size: 13px;
+  width: 150px;
+  margin-top: 12px;
+}
+.span1 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #363565;
+}
+.span2 {
+  font-size: 13px;
+}
+.img1 {
+  float: left;
+  background-color: #1f40a0;
+  border-radius: 25px 150px 80px 25px;
+  width: 250px;
+}
+.txt1 {
+  padding: 20px;
+  padding-left: 250px;
+}
+.blocks {
+  margin-left: 40px;
+  margin-right: 0px;
+}
+.select1 {
+  float: right;
+  width: 80px;
+  font-size: 10px;
+  border: 1px solid #ffffff;
+  margin-right: 12px;
+}
+
+.div2 {
+  background-color: #ffffff;
+  border-radius: 25px;
+  height: 120px;
+  padding: 10px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.chart-text {
+  padding-left: 100px;
+}
+.chart-text p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #363565;
+}
+.chart-text span {
+  font-size: 12px;
+  color: gray;
+}
+.chart-div {
+  margin-left: 40px;
+  border-radius: 25px;
+}
+.chart-div span {
+  color: gray;
+}
+.select2 {
+  float: right;
+  width: 100px;
+  font-size: 10px;
+  border: 1px solid #ffffff;
+}
+.dot1 {
+  background-color: #1f40a0;
+}
+.dot2 {
+  background-color: #f52a7a;
+}
+.dot3 {
+  background-color: gray;
+}
+.card-div {
+  border-radius: 25px;
+}
+.icon span {
+  color: gray;
+}
+.icon i {
+  background-color: #f52a7a;
+  height: 27px;
+  width: 27px;
+  font-size: 13px;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-top: 8px;
+  color: #ffffff;
+}
+.transaction-icon .icon {
+  height: 35px;
+  width: 35px;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-top: 8px;
+  border: 1px solid gray;
+  color: gray;
+}
+.transaction-icon p {
+  font-size: 11px;
+  color: gray;
+}
+.pink {
+  color: #f52a7a;
+  font-weight: bold;
+  font-size: 12px;
+}
+.green {
+  color: #35bb84;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .bg-blue {
+    height: 420px;
+  }
+  .logout {
+    position: inherit;
+    padding-top: 10px;
+  }
+  .logo-img {
+    margin-top: 10px;
+  }
+  .menu {
+    padding-top: 10px;
+  }
+  .span1 {
+    font-size: 19px;
+  }
+  .span2 {
+    font-size: 11px;
+  }
+  .btn1 {
+    font-size: 12px;
+    height: 30px;
+    width: 130px;
+  }
+  .div1 {
+    padding-top: 15px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 1024px) {
+  .bg-blue {
+    height: 420px;
+  }
+  .logout {
+    position: inherit;
+    padding-top: 10px;
+  }
+  .logo-img {
+    margin-top: 10px;
+    margin-left: 38vw;
+  }
+  .menu {
+    padding-top: 10px;
+  }
+  .span1 {
+    font-size: 19px;
+  }
+  .span2 {
+    font-size: 11px;
+  }
+  .btn1 {
+    font-size: 12px;
+    height: 30px;
+    width: 130px;
+  }
+  .div1 {
+    padding-top: 15px;
+  }
+}
